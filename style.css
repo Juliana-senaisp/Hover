@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* QUADROS */
+.quadros { 
+    /*MARGIN APENAS PARA MELHOR VISUALIZAÇÃO NA TELA, NÃO É OBRIGATORIO TER*/
+    margin: 100px;
+    
+    
+}
+
+/* DIMINUINDO AS IMAGENS */
+
+.user {
+    width: 100px;
+}
+
+.sorvete {
+    width: 300px;
+}
+
+/* POSICIONANDO AS IMAGENS  */
+.imagens {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    /*POSITION, LEFT E TOP PARA POSICIONAR NA IMAGEM*/
+    display: none; /*PARA FAZER DESAPARECER*/
+    
+}
+
+.quadros:hover .imagens {
+    display: flex;
+    
+    
+}
